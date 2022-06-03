@@ -1,0 +1,65 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Unimed';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.background {
+    display: flex;
+    background-image: linear-gradient(to left, transparent 40%, #828282 95%), url(/Imagens/banner_linha-uni.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 550px;
+}
+
+.container{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.logo{
+    height: 60px;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex 2
+}
+
+nav ul, nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+display: flex;
+padding: 10px;
+}
+
+li:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
