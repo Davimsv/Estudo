@@ -1,4 +1,9 @@
 
+@font-face {
+    font-family:'unimed' ;
+    src: url('UnimedSans2020-Bd.otf', 'UnimedSans2020-Blk.otf', 'UnimedSans2020-Rg.otf') format('opentype');
+}
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -8,7 +13,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Unimed, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -65,14 +70,19 @@ li:hover {
 }
 
 .cta1{
+    color: #ffffff;
     width: 400px;
     display: flex;
     flex-direction: column;
     align-items:flex-start;
-    position: inherit;
+    position: absolute;
+    bottom: 15%;
+    margin-left: 20%;
+    line-height: 1.5;
 }
 
 .btn01{
+    
     margin-top: 30px;
     margin-bottom: 30px;
     border: none;
